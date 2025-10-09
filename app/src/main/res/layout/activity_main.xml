@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F4F4F4">
+
+    <TextView
+        android:id="@+id/tvTitleApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" QUẢN LÝ GHI CHÚ"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="#222222"
+        android:layout_marginBottom="10dp" />
+
+    <ListView
+        android:id="@+id/listNotes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm ghi chú mới"
+        android:background="#4CAF50"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
